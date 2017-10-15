@@ -1,0 +1,174 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_MAIN MENU DISCARDABLE 
+BEGIN
+    POPUP "Файл"
+    BEGIN
+        MENUITEM "Открыть каталог RAW-изображений", ID_MENU_FILE_LOAD
+        MENUITEM "Сохранить изображение в метафайл", ID_MENU_FILE_SAVE_IMAGE
+        MENUITEM SEPARATOR
+        MENUITEM SEPARATOR
+        MENUITEM "Выход",                       ID_MENU_FILE_EXIT
+    END
+    POPUP "Окна"
+    BEGIN
+        MENUITEM SEPARATOR
+        MENUITEM "Вспомогательная панель управления", 
+                                                ID_MENU_WINDOW_CONTROL_PANEL
+        , CHECKED
+        MENUITEM "Список RAW-файлов",           ID_MENU_WINDOW_RAW_FILE_LIST_PANEL
+        , CHECKED
+    END
+    POPUP "Изображение"
+    BEGIN
+        MENUITEM "Применить контрастоповышающий фильтр", 
+                                                ID_MENU_IMAGE_USE_HIGHT_CONTRAST_FILTER
+
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOGBAR_CONTROL DIALOG DISCARDABLE  0, 0, 151, 396
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Палитра",IDC_STATIC,5,5,140,55,BS_CENTER
+    COMBOBOX        IDC_COMBO_DIALOGBAR_CONTROL_PALETTE,10,20,130,125,
+                    CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Применить",IDC_BUTTON_DIALOGBAR_CONTROL_APPLY_PALETTE,
+                    10,40,130,14
+    GROUPBOX        "Список точек",IDC_STATIC,5,65,140,245,BS_CENTER
+    LISTBOX         IDC_LIST_DIALOGBAR_CONTROL_POINT_LIST,10,80,130,185,
+                    LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Очистить список",
+                    IDC_BUTTON_DIALOGBAR_CONTROL_CLEAR_LIST,10,290,130,14
+    PUSHBUTTON      "Удалить выбранные",
+                    IDC_BUTTON_DIALOGBAR_CONTROL_DELETE_SELECTED,10,270,130,
+                    14
+    GROUPBOX        "Параметры",IDC_STATIC,5,315,140,75,BS_CENTER
+    EDITTEXT        IDC_EDIT_DIALOGBAR_CONTROL_EMISSIVITY,15,340,120,14,
+                    ES_AUTOHSCROLL
+    GROUPBOX        "Коэффициент излучения",IDC_STATIC,10,325,130,40,
+                    BS_CENTER
+    PUSHBUTTON      "Применить",
+                    IDC_BUTTON_DIALOGBAR_CONTROL_APPLY_PARAMETERS,10,370,125,
+                    14
+END
+
+IDD_DIALOGBAR_RAW_FILE_LIST DIALOG DISCARDABLE  0, 0, 166, 411
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Список RAW-файлов",IDC_STATIC,5,10,155,395,BS_CENTER
+    LISTBOX         IDC_LIST_DIALOGBAR_RAW_FILE_LIST_LIST,10,25,145,375,
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOGBAR_CONTROL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 144
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 389
+    END
+
+    IDD_DIALOGBAR_RAW_FILE_LIST, DIALOG
+    BEGIN
+        RIGHTMARGIN, 96
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_MENU_MAIN           "Анализатор RAW-изображений Flir One\n \n \nFiles (*.raw)\n.raw\n \n"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

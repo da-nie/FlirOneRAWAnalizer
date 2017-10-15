@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FlirOneRAWAnalizer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/Resource.res" /d "NDEBUG" /d "_AFXDLL" "E:\CopyToHome\FlirOneRAWAnalizer\Resource.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP52F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/FlirOneRAWAnalizer.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\CopyToHome\FlirOneRAWAnalizer\cdecorator_ciimage.cpp"
+"E:\CopyToHome\FlirOneRAWAnalizer\cdecorator_hightcontrastfilter.cpp"
+"E:\CopyToHome\FlirOneRAWAnalizer\cdecorator_scale.cpp"
+"E:\CopyToHome\FlirOneRAWAnalizer\cdocument_image.cpp"
+"E:\CopyToHome\FlirOneRAWAnalizer\cfactorymethod_cpicture.cpp"
+"E:\CopyToHome\FlirOneRAWAnalizer\cframewnd_main.cpp"
+"E:\CopyToHome\FlirOneRAWAnalizer\cgraphics.cpp"
+"E:\CopyToHome\FlirOneRAWAnalizer\cifactorymethod_ciimage.cpp"
+"E:\CopyToHome\FlirOneRAWAnalizer\ciimage.cpp"
+"E:\CopyToHome\FlirOneRAWAnalizer\cpicture.cpp"
+"E:\CopyToHome\FlirOneRAWAnalizer\cview_image.cpp"
+"E:\CopyToHome\FlirOneRAWAnalizer\main.cpp"
+"E:\CopyToHome\FlirOneRAWAnalizer\tga.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP52F.tmp" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP530.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/FlirOneRAWAnalizer.pdb" /machine:I386 /out:"Release/FlirOneRAWAnalizer.exe" 
+.\Release\cdecorator_ciimage.obj
+.\Release\cdecorator_hightcontrastfilter.obj
+.\Release\cdecorator_scale.obj
+.\Release\cdocument_image.obj
+.\Release\cfactorymethod_cpicture.obj
+.\Release\cframewnd_main.obj
+.\Release\cgraphics.obj
+.\Release\cifactorymethod_ciimage.obj
+.\Release\ciimage.obj
+.\Release\cpicture.obj
+.\Release\cview_image.obj
+.\Release\main.obj
+.\Release\tga.obj
+.\Release\Resource.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP530.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+cdecorator_ciimage.cpp
+cdecorator_hightcontrastfilter.cpp
+cdecorator_scale.cpp
+cdocument_image.cpp
+cfactorymethod_cpicture.cpp
+cframewnd_main.cpp
+cgraphics.cpp
+cifactorymethod_ciimage.cpp
+ciimage.cpp
+cpicture.cpp
+cview_image.cpp
+main.cpp
+tga.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+FlirOneRAWAnalizer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
